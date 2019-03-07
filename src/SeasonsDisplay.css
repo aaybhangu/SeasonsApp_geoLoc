@@ -1,0 +1,32 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.Season-display,
+.Error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Season-display.winter i {
+  color: blue;
+}
+.Season-display.summer i {
+  color: red;
+}
+.winter {
+  background-color: lightblue;
+}
+.summer {
+  background-color: tan;
+}
+.Error-Message {
+  background-color: black;
+}
